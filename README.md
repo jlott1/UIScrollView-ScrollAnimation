@@ -31,9 +31,7 @@ Import `UIScrollView+ScrollAnimation.h` and `UIScrollView+ScrollAnimation.m` int
 project. The implementation uses a `CADisplayLink`, therefore, you
 have to add the `QuartzCore` library to your project. As the class
 uses automatic refernce counting either your project has to use
-automatic reference counting as well or you have to enable automatic
-reference counting for `MOScrollView.m` by adding `-fobjc-arc` as
-compiler flag in Build Phases options.
+automatic reference counting as well.
 
 Exmaple:
 ``` objc
